@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Test Suite" preserve-order="false" parallel="methods">
+    <listeners>
+        <listener class-name="pt.dbservices.utilities.listeners.TestListener"/>
+    </listeners>
+     <test name="UI_Sanity">
+        <classes>
+            <class name="pt.dbservices.uiAutomation.testScripts.uiSanity.LinkNavigationTests"/>
+        </classes>
+    </test>
+    <test name="API_Sanity">
+        <classes>
+            <class name="pt.dbservices.uiAutomation.testScripts.apiSanity.GETExchangeRateTest"/>
+        </classes>
+    </test>
+
+</suite>

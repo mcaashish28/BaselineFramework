@@ -1,0 +1,12 @@
+# ignore below file and fodler to move into git.
+
+.idea/
+target/
+# Compiled class file
+*.class
+# Package Files #
+*.jar
+*.war
+
+# Log file
+*.log

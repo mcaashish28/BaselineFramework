@@ -1,0 +1,13 @@
+FEATURE:
+# Maven Dependencies and plugin are included in pom.xml file
+# Framework is designed with MAVEN - JAVA - Selenium using TestNG to cover UI Functional Automation
+# REST-ASSURED is used to cover API Automation
+# Thread-Local is used to initiate the Browser Driver object to Execute in Parallel mode
+# TestNG - Soft Assertions is used to incorporated Verification points
+# Page Object Model is implemented to maintain Page locators and re-usable methods for each page.
+# TestNG Extent Report is used to layout in HTML format and design user friendly report.
+# TestNG Test Listener is used to handle exception
+# Read properties will read the required environment data from .properties files.
+# Log4j is implemented to analyze test execution logs or monitor via debugging process.
+
+INFO: Each Test class and Page class should inherit BaseTest and BasePage class respectively, to initialize Driver and Reporting by default.
